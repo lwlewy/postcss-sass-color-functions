@@ -43,7 +43,7 @@ test("darken()", function(t) {
 test("lighten()", function(t) {
   t.equal(
     runPostCSS("body{background-color: lighten(rgb(100,100,100), 10%);}"),
-    "body{background-color: rgb(110, 110, 110);}",
+    "body{background-color: rgb(125, 125, 125);}",
     "lighten() works");
   t.end()
 });

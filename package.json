@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "balanced-match": "^0.1.0",
-    "color": "^0.11.1",
+    "color": "github:ivansky/color",
     "postcss": "^5.0.4",
     "postcss-message-helpers": "^2.0.0"
   },

@@ -1,11 +1,13 @@
 [PostCSS](https://github.com/postcss/postcss) plugin to transform SASS/compass color functions to more compatible CSS.
 
+>This fork is using a [forked version](https://github.com/ivansky/color) of [color](https://github.com/Qix-/color) to replicate correctly SASS's lighten function ([color/#91](https://github.com/Qix-/color/issues/91), [color/#92](https://github.com/Qix-/color/issues/92)). There is still a negligible difference in the result compared to SASS due to rounding.
+
 Inspired, and modified from, [postcss-color-function](https://github.com/postcss/postcss-color-function).
 
 ## Installation
 
 ```console
-$ npm install git://github.com/adam-h/postcss-sass-color-functions.git
+$ npm install git://github.com/lwlewy/postcss-sass-color-functions.git
 ```
 
 ## Usage
